@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "504866954522",
+    "firebase_url": "https://pratra-e9742.firebaseio.com",
+    "project_id": "pratra-e9742",
+    "storage_bucket": "pratra-e9742.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504866954522:android:ab8b7db8915317b4",
+        "android_client_info": {
+          "package_name": "com.magarex.pratra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504866954522-ig4gfsktjjcj94ofpkn90kpr24ebnpob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.magarex.pratra",
+            "certificate_hash": "cd650d907369c7ce8456a661fcb4da9b0b5cfca1"
+          }
+        },
+        {
+          "client_id": "504866954522-987abcffe3lga5r9u7kouds9sfr13us2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQHB5Z2-vGVStVABwRCDUiIUg2qB3V2mQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504866954522-987abcffe3lga5r9u7kouds9sfr13us2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

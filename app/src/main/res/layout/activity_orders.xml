@@ -1,0 +1,48 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.magarex.pratra.OrdersActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_below="@+id/abcd"
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:id="@+id/list_Orders"
+            android:textSize="15dp"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:layout_below="@+id/list_Orders"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:id="@+id/grand_Total"
+            android:text="Total"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            />
+
+        <Button
+            android:layout_below="@+id/grand_Total"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Place Order"
+            android:layout_gravity="bottom|right"
+            android:id="@+id/btnPlaceOrder"
+            android:textSize="25dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
+
